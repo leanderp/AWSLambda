@@ -5,7 +5,7 @@ namespace AWSLambda1
 {
     public class ServicesSendImgS3
     {
-        readonly string BucketName = "workmilage-screenshots";
+        readonly string BucketName = "bukect-name";
         string CodeImg = Guid.NewGuid().ToString();
 
         public async Task<string> LoadImgBase64(IAmazonS3 S3, LoadImg loadImg)
